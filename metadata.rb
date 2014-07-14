@@ -6,6 +6,6 @@ description      'Installs/Configures hbase'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          '0.1.0'
 
-%w[java].each do |dep|
+%w[java ant].each do |dep|
 	depends dep
 end
